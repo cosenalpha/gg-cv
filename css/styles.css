@@ -110,7 +110,6 @@ hr {
   color: inherit;
   border: 0;
   border-top: 3px solid #343a40; 
-    /* @@@@@@ */
 }
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
@@ -10951,6 +10950,54 @@ p.lead {
   display: flex; /* Enable Flexbox */
   justify-content: space-between; /* Distribute space between columns */
   gap: 20px; /* Add spacing between columns */
+}
+
+/* STICKER HOMEPAGE */
+
+
+#img-container {
+  position: sticky; /* Remove the container from the document flow */
+  top: 0; /* Align to the top of the page */
+  left: 0; /* Align to the left of the page */
+  width: 100%; /* Take up full width */
+  height: 0; /* No height to avoid pushing content down */
+  margin: 0;
+}
+
+#img-01 {
+  position: absolute;
+  display: block;
+  width: 35vh;
+  height: 35vh;
+  top: -12%; /* Moves the image 10% above the top edge of the viewport */
+  left: 30%; /* Positions the image 10% from the left edge of the viewport */
+  margin: 0;
+  z-index: 9999;
+  transform: rotate(290deg); /* Optional: Rotate the image */
+}
+
+#img-02 {
+  position: absolute;
+  display: block;
+  width: 35vh;
+  height: 35vh;
+  top: 10%; /* Moves the image 10% above the top edge of the viewport */
+  left: 80%; /* Positions the image 10% from the left edge of the viewport */
+  margin: 0;
+  z-index: 9999;
+  transform: rotate(15deg); /* Optional: Rotate the image */
+}
+
+#img-03 {
+  position: absolute;
+  display: block;
+  width: 35vh;
+  height: 35vh;
+  top: 70%; /* Moves the image 10% above the top edge of the viewport */
+  left: 55%; /* Positions the image 10% from the left edge of the viewport */
+  margin: 0;
+  z-index: 9999;
+  transform: rotate(320deg); /* Optional: Rotate the image */
 }
 
 section.resume-section {
